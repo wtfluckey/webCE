@@ -5,6 +5,8 @@
     <title>WebCE</title>
     <link rel="stylesheet" media="screen" href="css/main.css" type="text/css"/>
     <link rel="stylesheet" media="screen" href="css/responsive.css" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
+
   </head>
 
   <body>
@@ -16,14 +18,64 @@
         <h1 class="header-right">FLASH CARDS</h1>
       </div>
     </div>
-  
+
     <div class="wrapper">
 
-      <a href="screen1.html">screen 1</a>
-      <a href="screen2.html">screen 2</a>
-      <a href="term.html">term</a>
-      <a href="definition.html">definition</a>
-      
+      <div class="navigation-links">
+        <a href="screen1.html">screen 1</a>
+        <a href="screen2.html">screen 2</a>
+        <a href="term.html">term</a>
+        <a href="definition.html">definition</a>
+      </div>
+
+
+      <div class="card-wrapper">
+        <a href=""><span class="reset-deck">
+          Reset Deck
+        </span></a>
+
+        <div class="card">
+          <span class="remove-card">
+            <a href="">
+              <span class="remove-card-text">
+                Remove Card
+                <i class="fa fa-times-circle close"></i>
+              </span>
+            </a>
+          </span>
+          <div class="lined">
+            <div class="card-definition">
+              <p>An unplanned reduction in economic value resulting from the occurrence of a covered peril</p>
+              <div class="spacer"></div>
+              <div class="spacer"></div>
+              <div class="spacer"></div>
+              <p class="align-left"><span class="bold blue">Direct Loss: </span>death, disability</p>
+              <p class="align-left"><span class="bold blue">Indirect Loss: </span>Loss of income due to death or disability</p>
+              <div class="spacer"></div>
+              <p class="align-left">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-nav">
+          <a href="">
+            <span class="card-nav-left">
+              <i class="fa fa-angle-left"></i>
+            </span>
+          </a>
+          <a href="">
+            <span class="card-nav-flip">
+              Flip Card
+            </span>
+          </a>
+          <a href="">
+            <span class="card-nav-right">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+
     </div>
 
 
