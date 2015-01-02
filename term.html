@@ -5,6 +5,8 @@
     <title>WebCE</title>
     <link rel="stylesheet" media="screen" href="css/main.css" type="text/css"/>
     <link rel="stylesheet" media="screen" href="css/responsive.css" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
+
   </head>
 
   <body>
@@ -16,14 +18,57 @@
         <h1 class="header-right">FLASH CARDS</h1>
       </div>
     </div>
-  
+
     <div class="wrapper">
 
-      <a href="screen1.html">screen 1</a>
-      <a href="screen2.html">screen 2</a>
-      <a href="term.html">term</a>
-      <a href="definition.html">definition</a>
-      
+      <div class="navigation-links">
+        <a href="screen1.html">screen 1</a>
+        <a href="screen2.html">screen 2</a>
+        <a href="term.html">term</a>
+        <a href="definition.html">definition</a>
+      </div>
+
+
+      <div class="card-wrapper">
+        <a href=""><span class="reset-deck">
+          Reset Deck
+        </span></a>
+
+        <div class="card">
+          <span class="remove-card">
+            <a href="">
+              <span class="remove-card-text">
+                Remove Card
+                <i class="fa fa-times-circle close"></i>
+              </span>
+            </a>
+          </span>
+          <div class="lined">
+            <div class="card-term">
+              Loss
+            </div>
+          </div>
+        </div>
+
+        <div class="card-nav">
+          <a href="">
+            <span class="card-nav-left">
+              <i class="fa fa-angle-left"></i>
+            </span>
+          </a>
+          <a href="">
+            <span class="card-nav-flip">
+              Flip Card
+            </span>
+          </a>
+          <a href="">
+            <span class="card-nav-right">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+
     </div>
 
 

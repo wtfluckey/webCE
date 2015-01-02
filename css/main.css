@@ -8,7 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-
 /* FONTS */
 
 @font-face {
@@ -27,16 +26,22 @@ html {
          url('fonts/helvetica-neue-thin.svg') format('svg');
 }
 
+body {
+  font-family: 'helvetica-neue-thin';
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 /* COLORS */
 
 .blue {
   color: #418bc9;
 }
 
-body {
-  font-family: 'helvetica-neue-thin';
-  margin: 0;
-}
+/* SHARED */
 
 .header-wrapper {
   height: 50px;
@@ -76,6 +81,108 @@ body {
   padding: 10px 0 0 45px;
 }
 
+/* SHARED CARD STYLES */
+
+.card-wrapper {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.navigation-links {
+  border-bottom: 5px solid #f5f5f5;
+}
+
+.reset-deck {
+  width: 200px;
+  height: 60px;
+  margin: 20px auto 0;
+  display: inline-block;
+  background-color: #f15b4e;
+  border: 6px solid #f19c94;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 25px;
+  padding: 8px;
+}
+
+.card {
+  width: 740px;
+  height: 500px;
+  margin: 20px auto;
+  border: 4px solid #f5f5f5;
+}
+
+.lined {
+  width: 100%;
+  height: 92%;
+  background: #fff;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 0px;
+  background: -webkit-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
+  background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
+  background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
+  background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
+  background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  -ms-background-size: 100% 20px;
+  -o-background-size: 100% 20px;
+  background-size: 100% 20px;
+}
+
+.remove-card {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-bottom: 3px solid #fcbbc1;
+}
+
+.remove-card-text {
+  font-size: 20px;
+  float: right;
+  color: #f15b4e;
+  padding: 6px;
+}
+
+.card-term {
+  font-family: 'Courier New';
+  font-size: 60px;
+  position: relative;
+  top: 190px;
+  left: 80px;
+}
+
+.card-nav > div {
+  display: inline-block;
+}
+
+.card-nav-left,
+.card-nav-flip,
+.card-nav-right {
+  display: inline-block;
+  background-color: #418bc9;
+  border: 6px solid #6aa3d4;
+  color: #fff;
+  font-size: 40px;
+  padding-top: 8px;
+}
+
+.card-nav-left,
+.card-nav-right {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+.card-nav-flip {
+  width: 300px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 0 25px;
+}
+
+/* SCREEN 1 STYlES */
+
 .tile {
   width: 335px;
   float: left;
@@ -107,3 +214,7 @@ body {
   height: 192px;
   background-color: #f8f8f8;
 }
+
+/* TERM STYLES */
+
+
