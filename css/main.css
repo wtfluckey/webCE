@@ -40,6 +40,16 @@ p {
   margin: 0;
 }
 
+h1 {
+  font-size: 42px;
+}
+
+h3 {
+  margin: 0;
+  padding: 13px;
+  letter-spacing: 1px;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -63,7 +73,7 @@ p {
 }
 
 .header-container {
-  max-width: 1200px;
+  max-width: 1208px;
   margin: auto;
 }
 
@@ -89,7 +99,7 @@ p {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1208px;
   min-height: 1000px;
   height: 100%;
   width: 100%;
@@ -250,6 +260,89 @@ p {
   background-color: #f8f8f8;
 }
 
-/* TERM STYLES */
+/* SCREEN 2 */
 
+.modal {
+  width: 1208px;
+  height: 530px;
+  background-color: #fff;
+  border: 8px solid #418bc9;
+  display: block;
+  position: absolute;
+  top: 100px;
+  padding: 45px;
+}
+
+.modal h1 {
+  margin: 0 0 30px 0;
+  width: 900px;
+  float: left;
+}
+
+.print-icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  border: 5px solid #d7d7d7;
+  background-color: #f8f8f8;
+  color: #d7d7d7;
+  font-size: 40px;
+  padding: 5px 0 0 13px;
+  float: right;
+}
+
+.term-example {
+  margin-right: 35px;
+}
+
+.term-example,
+.definition-example {
+  width: 525px;
+  float: left;
+}
+
+.term-ex-title,
+.definition-ex-title {
+  height: 60px;
+  background-color: #414651;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+
+.example-bg {
+  font-family: 'Bebas';
+  font-size: 120px;
+  color: #ededed;
+  padding: 30px;
+  top: 50px;
+  position: relative;
+}
+
+.term-ex-body,
+.definition-ex-body {
+  height: 220px;
+  background-color: #f8f8f8;
+  border-bottom: 4px solid #e5e5e5;
+}
+
+.term-ex-body-copy,
+.definition-ex-body-copy {
+  text-align: center;
+  z-index: 999;
+  position: relative;
+  color: #333;
+  margin: 0 25px;
+}
+
+.term-ex-body-copy {
+  font-size: 42px;
+  top: -40px;
+}
+
+.definition-ex-body-copy {
+  font-size: 32px;
+  top: -70px;
+}
 
