@@ -35,6 +35,19 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.align-left {
+  text-align: left;
+}
+
 /* COLORS */
 
 .blue {
@@ -70,6 +83,11 @@ a {
   margin-right: 5px;
 }
 
+.navigation-links {
+  height: 40px;
+  padding: 3px 0 0 15px;
+}
+
 .wrapper {
   max-width: 1200px;
   min-height: 1000px;
@@ -78,10 +96,10 @@ a {
   margin: auto;
   border-left: 5px solid #f5f5f5;
   border-right: 5px solid #f5f5f5;
-  padding: 10px 0 0 45px;
+  padding: 10px 0;
 }
 
-/* SHARED CARD STYLES */
+/* CARD STYLES */
 
 .card-wrapper {
   width: 80%;
@@ -110,7 +128,7 @@ a {
   width: 740px;
   height: 500px;
   margin: 20px auto;
-  border: 4px solid #f5f5f5;
+  border: 3px solid #f5f5f5;
 }
 
 .lined {
@@ -123,11 +141,11 @@ a {
   background: -ms-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
   background: -o-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
   background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0px;
-  -webkit-background-size: 100% 20px;
-  -moz-background-size: 100% 20px;
-  -ms-background-size: 100% 20px;
-  -o-background-size: 100% 20px;
-  background-size: 100% 20px;
+  -webkit-background-size: 100% 31px;
+  -moz-background-size: 100% 31px;
+  -ms-background-size: 100% 31px;
+  -o-background-size: 100% 31px;
+  background-size: 100% 31px;
 }
 
 .remove-card {
@@ -145,11 +163,24 @@ a {
 }
 
 .card-term {
-  font-family: 'Courier New';
+  font-family: 'courier new';
+  color: #333333;
   font-size: 60px;
   position: relative;
   top: 190px;
   left: 80px;
+}
+
+.card-definition {
+  font-family: 'courier new';
+  color: #333333;
+  font-size: 22px;
+  padding: 30px;
+  line-height: 31px;
+}
+
+.spacer {
+  height: 30px;
 }
 
 .card-nav > div {
@@ -182,6 +213,10 @@ a {
 }
 
 /* SCREEN 1 STYlES */
+
+.tiles {
+  margin-left: 45px;
+}
 
 .tile {
   width: 335px;
