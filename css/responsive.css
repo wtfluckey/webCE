@@ -47,6 +47,16 @@
   .definition-ex-body-copy {
     font-size: 22px;
   }
+
+  .spacer {
+    display: none;
+  }
+
+  .card-term {
+    height: 300px;
+    top: 80px;
+  }
+  
 }
 
 @media only screen and (max-width: 766px) {
@@ -106,6 +116,12 @@
     padding: 0;
   }
 
+  .card-definition {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 15px;
+  }
+
   .card-nav-flip,
   .card-nav-left,
   .card-nav-right {
@@ -119,10 +135,14 @@
     width: 170px;
     margin: 0 15px;
   }
-  
+
+  .card-term {
+    height: 260px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+
   .choose-modal-header h1 {
     font-size: 25px;
   }
@@ -131,8 +151,14 @@
     font-size: 18px;
   }
 
-  .card-definition p {
-    font-size: 18px;
+  .remove-card-text {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .card-definition {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .card-nav {
@@ -151,6 +177,11 @@
   .card-nav-flip {
     width: 110px;
     margin: 0 5px;
+  }
+
+  .card-term {
+    height: 150px;
+    position: static;
   }
 }
 
