@@ -1,10 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WebCE</title>
     <link rel="stylesheet" media="screen" href="font-awesome/css/font-awesome.min.css" type="text/css"/>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" media="screen" href="css/main.css" type="text/css"/>
     <link rel="stylesheet" media="screen" href="css/responsive.css" type="text/css"/>
     <link rel="stylesheet" media="screen" href="css/animate.css" type="text/css"/>
@@ -20,7 +22,7 @@
       </div>
     </div>
 
-    <div class="wrapper">
+    <div class="container">
       <div class="navigation-links">
         <a href="screen1.html">Screen 1  </a> >
         <a href="screen2.html">Screen 2  </a> >
@@ -28,100 +30,126 @@
         <a href="definition.html">Definition</a>
       </div>
 
-      <div class="modal">
-        <div class="modal-header">
-          <h1 class="blue">Would you like to see terms or definitions on the front of the cards?</h1>
-          <a href="">
-            <div class="print-icon">
-              <i class="fa fa-print"></i>
-            </div>
-          </a>
+      <div class="choose-modal">
+        <div class="choose-modal-header row">
+          <div class="col-xs-10">
+            <h1 class="blue">Would you like to see terms or definitions on the front of the cards?</h1>
+          </div>
+          <div class="col-xs-2">
+            <a href="">
+              <div class="print-icon">
+                <i class="fa fa-print"></i>
+              </div>
+            </a>
+          </div>
         </div>
 
-        <div class="modal-tiles">
-          <a href="">
-            <div class="term-example">
-              <div class="term-ex-title">
-                <h3>TERMS</h3>
+        <div class="row modal-tiles">
+          <div class="col-sm-6">
+            <a href="">
+              <div class="term-example">
+                <div class="term-ex-title">
+                  <h3>TERMS</h3>
+                </div>
+                <div class="term-ex-body">
+                  <div class="example-bg" style="width: 100%">
+                    <span>EXAMPLE</span>
+                  </div>
+                  <p class="term-ex-body-copy">Loss</p>
+                </div>
               </div>
-              <div class="term-ex-body">
-                <div class="example-bg">EXAMPLE</div>
-                <p class="term-ex-body-copy">Loss</p>
-              </div>
-            </div>
-          </a>
+            </a>
+          </div>
 
-          <a href="">
-            <div class="definition-example">
-              <div class="definition-ex-title">
-                <h3>DEFINITIONS</h3>
+          <div class="col-sm-6">
+            <a href="">
+              <div class="definition-example">
+                <div class="definition-ex-title">
+                  <h3>DEFINITIONS</h3>
+                </div>
+                <div class="definition-ex-body">
+                  <div class="example-bg" style="width: 100%">
+                    <span>EXAMPLE</span>
+                  </div>
+                  <p class="definition-ex-body-copy">An unplanned reduction in economic value resulting from the occurrence of a covered peril</p>
+                </div>
               </div>
-              <div class="definition-ex-body">
-                <div class="example-bg">EXAMPLE</div>
-                <p class="definition-ex-body-copy">An unplanned reduction in economic value resulting from the occurrence of a covered peril</p>
-              </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
 
       <div class="tiles-beneath">
         <h1 class="blue h1-margin">What topic would you like to study?</h1>
 
-        <a href=""><div class="tile">
-          <div class="tile-title">
-            <h2>General Insurance Principles</h2>
+        <div class="row">
+          <div class=" col-sm-4">
+            <a href=""><div class="tile">
+              <div class="tile-title">
+                <h2>General Insurance Principles</h2>
+              </div>
+
+              <div class="tile-body">
+                <img src="images/general-insurance.png" />
+              </div>
+            </div></a>
           </div>
 
-          <div class="tile-body">
-            <img src="http://placehold.it/150x150">
-          </div>
-        </div></a>
+          <div class=" col-sm-4">
+            <a href=""><div class="tile">
+              <div class="tile-title">
+                <h2>Property & Casualty Insurance Principles</h2>
+              </div>
 
-        <a href=""><div class="tile">
-          <div class="tile-title">
-            <h2>Property and Casualty Insurance Principles</h2>
-          </div>
-
-          <div class="tile-body">
-            <img src="http://placehold.it/150x150">
-          </div>
-        </div></a>
-
-        <a href=""><div class="tile">
-          <div class="tile-title one-line">
-            <h2>Casualty Insurance</h2>
+              <div class="tile-body">
+                <img src="images/prop-cas-insurance.png" />
+              </div>
+            </div></a>
           </div>
 
-          <div class="tile-body">
-            <img src="http://placehold.it/150x150">
-          </div>
-        </div></a>
+          <div class="col-sm-4">
+            <a href=""><div class="tile">
+              <div class="tile-title one-line">
+                <h2>Casualty Insurance</h2>
+              </div>
 
-        <a href=""><div class="tile">
-          <div class="tile-title one-line">
-            <h2>Property Insurance</h2>
-          </div>
-
-          <div class="tile-body">
-            <img src="http://loremicon.com/i/flat/128/loading" />
-          </div>
-        </div></a>
-
-        <a href=""><div class="tile">
-          <div class="tile-title one-line">
-            <h2>Review All Cards</h2>
+              <div class="tile-body">
+                <img src="images/casualty-insurance.png" />
+              </div>
+            </div></a>
           </div>
 
-          <div class="tile-body">
-            <img src="http://loremicon.com/i/flat/128/volume" />
+          <div class="col-sm-4">
+            <a href=""><div class="tile">
+              <div class="tile-title one-line">
+                <h2>Property Insurance</h2>
+              </div>
+
+              <div class="tile-body">
+                <img src="images/property-insurance.png" />
+              </div>
+            </div></a>
           </div>
-        </div></a>
+
+          <div class="col-sm-4">
+            <a href=""><div class="tile">
+              <div class="tile-title one-line">
+                <h2>Review All Cards</h2>
+              </div>
+
+              <div class="tile-body">
+                <img src="images/review-all.png" />
+              </div>
+            </div></a>
+          </div>
+        </div>
+
       </div>
     </div>
 
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script src="js/bigtext.js"></script>
   </body>
 </html>
 

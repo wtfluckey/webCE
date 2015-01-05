@@ -60,6 +60,10 @@ a {
   color: #418bc9;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -112,7 +116,7 @@ a {
   margin: 0 5px;
 }
 
-.wrapper {
+.container {
   max-width: 1208px;
   min-height: 1000px;
   height: 100%;
@@ -242,14 +246,15 @@ a {
 
 .tiles,
 .tiles-beneath {
-  margin-left: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .tile {
-  width: 335px;
+  width: 100%;
   float: left;
-  margin: 0 45px 45px 0;
   border-bottom: 4px solid #e5e5e5;
+  margin-bottom: 9%;
 }
 
 .tile-title {
@@ -274,33 +279,28 @@ a {
 }
 
 .tile-body img {
-  margin-top: 20px;
-  width: 150px;
-  height: 150px;
+  margin-top: 25px;
+  width: 140px;
+
 }
 
 /* SCREEN 2 */
 
 .tiles-beneath {
-  position: absolute;
   z-index: -100;
 }
 
-.modal {
-  width: 1200px;
-  height: 530px;
+.choose-modal {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 530px;
   background-color: #fff;
   border: 8px solid #418bc9;
   display: block;
   position: absolute;
   top: 100px;
   padding: 45px;
-}
-
-.modal h1 {
-  margin: 0 0 30px 0;
-  width: 900px;
-  float: left;
+  z-index: 100;
 }
 
 .print-icon {
@@ -312,17 +312,18 @@ a {
   background-color: #f8f8f8;
   color: #d7d7d7;
   font-size: 40px;
-  padding: 5px 0 0 13px;
+  padding: 0 0 0 13px;
   float: right;
 }
 
-.term-example {
-  margin-right: 35px;
+.modal-tiles {
+  margin-top: 35px;
 }
 
 .term-example,
 .definition-example {
-  width: 525px;
+  max-width: 525px;
+  width: 100%;
   float: left;
 }
 
@@ -337,7 +338,6 @@ a {
 
 .example-bg {
   font-family: 'Bebas';
-  font-size: 135px;
   color: #ededed;
   margin-left: 3px;
   position: absolute;
@@ -377,7 +377,7 @@ a {
     padding-top: 7px;
   }
   .example-bg {
-    padding-top: 50px;
+    padding-top: 30px;
   }
 }
 

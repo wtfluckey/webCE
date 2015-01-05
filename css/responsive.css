@@ -1,8 +1,112 @@
-@media only screen and (min-width: 930px) and (max-width: 4000px) {
-   
-	
+@media only screen and (max-width: 1208px) {
+
+  h2 {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .header-container,
+  .container {
+    width: 90%;
+  }
+
+  .tile-title {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .choose-modal {
+    width: 89%;
+  }
+
+  .definition-ex-body-copy {
+    font-size: 28px;
+  }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 929px) {
-  
+@media only screen and (max-width: 995px) {
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .h1-margin {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .tile-title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .definition-ex-body-copy {
+    font-size: 22px;
+  }
 }
+
+@media only screen and (max-width: 766px) {
+
+  .col-xs-2 {
+    display: none;
+  }
+
+  .col-xs-10 {
+    width: 100%;
+  }
+
+  .header-left,
+  .header-right {
+    font-size: 20px;
+  }
+
+  .tile {
+    width: 75%;
+    float: none;
+    margin: 0 auto 9%;
+  }
+
+  .navigation-links {
+    height: 60px;
+  }
+
+  .choose-modal {
+    top: 120px;
+    padding: 30px;
+  }
+
+  .choose-modal-header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .choose-modal-header h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .term-example,
+  .definition-example {
+    float: none;
+    margin: 0 auto 35px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .choose-modal-header h1 {
+    font-size: 25px;
+  }
+
+  .definition-ex-body-copy {
+    font-size: 18px;
+  }
+
+
+}
+
+
