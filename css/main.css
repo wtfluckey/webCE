@@ -118,7 +118,6 @@ a:hover {
 
 .container {
   max-width: 1208px;
-  min-height: 1000px;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -198,10 +197,10 @@ a:hover {
   color: #333333;
   font-size: 60px;
   position: relative;
-  top: 150px;
+  top: 115px;
   text-align: center;
   margin: 10px;
-  height: 440px;
+  height: 320px;
 }
 
 .card-definition {
@@ -214,6 +213,10 @@ a:hover {
 
 .spacer {
   height: 30px;
+}
+
+.card-nav {
+  margin-bottom: 25px;
 }
 
 .card-nav > div {
