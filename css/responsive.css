@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1208px) {
+  h1 {
+    font-size: 32px;
+  }
 
  .h1-margin {
+   font-size: 32px;
     text-align: center;
     margin: 15px 0;
   }
@@ -26,18 +30,71 @@
 
   .choose-modal {
     width: 89%;
+    height: auto;
+  }
+
+  .term-ex-body,
+  .definition-ex-body {
+    height: 180px;
   }
 
   .definition-ex-body-copy {
-    font-size: 28px;
+    font-size: 22px;
+  }
+
+  .term-ex-body-copy {
+    top: 45px;
+  }
+
+  .tile-body {
+    height: 130px;
+  }
+
+  .tile-body img {
+    width: 90px;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .card-term {
+    height: 265px;
+    padding-top: 60px;
+    font-size: 80px;
+  }
+
+  .reset-deck {
+    width: 150px;
+    height: 40px;
+    font-size: 19px;
+    padding: 0;
+  }
+
+  .card-definition {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 30px;
+    height: auto;
+  }
+
+  .card-nav-flip,
+  .card-nav-left,
+  .card-nav-right {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .card-nav-flip {
+    width: 240px;
+    margin: 0 15px;
   }
 }
 
 @media only screen and (max-width: 995px) {
-
-  h1 {
-    font-size: 38px;
-  }
 
   h2 {
     font-size: 18px;
@@ -49,15 +106,17 @@
     padding-right: 12px;
   }
 
-  .definition-ex-body-copy {
-    font-size: 22px;
+  .example-bg {
+    padding-top: 10px;
   }
 
-  .card-term {
-    height: 300px;
-    top: 80px;
+  .definition-ex-body-copy {
+    font-size: 20px;
   }
-  
+
+  .card {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 766px) {
@@ -81,10 +140,6 @@
     margin: 0 auto 9%;
   }
 
-  .navigation-links {
-    height: 60px;
-  }
-
   .choose-modal {
     top: 120px;
     padding: 30px;
@@ -106,43 +161,17 @@
     margin: 0 auto 35px;
   }
 
-}
-
-@media only screen and (max-width: 730px) {
-
-  .reset-deck {
-    width: 150px;
-    height: 40px;
-    font-size: 19px;
-    padding: 0;
-  }
-
-  .card-definition {
-    font-size: 18px;
-    line-height: 25px;
-    padding: 15px;
-  }
-
-  .card-nav-flip,
-  .card-nav-left,
-  .card-nav-right {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    padding: 0;
-  }
-
   .card-nav-flip {
-    width: 170px;
-    margin: 0 15px;
+    width: 185px;
   }
 
-  .card-term {
-    height: 260px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
+
+  .navigation-links {
+    height: 60px;
+  }
 
   .choose-modal-header h1 {
     font-size: 25px;
@@ -160,6 +189,7 @@
   .card-definition {
     font-size: 16px;
     line-height: 20px;
+    padding: 15px;
   }
 
   .card-nav-flip,
@@ -178,7 +208,8 @@
 
   .card-term {
     height: 150px;
-    position: static;
+    padding-top: 30px;
+    font-size: 48px;
   }
 }
 

@@ -195,12 +195,11 @@ a:hover {
 .card-term {
   font-family: 'courier new';
   color: #333333;
-  font-size: 60px;
-  position: relative;
-  top: 115px;
+  font-size: 100px;
   text-align: center;
   margin: 10px;
-  height: 320px;
+  height: 430px;
+  padding-top: 110px;
 }
 
 .card-definition {
@@ -209,6 +208,7 @@ a:hover {
   font-size: 22px;
   padding: 30px;
   line-height: 31px;
+  height: 450px;
 }
 
 .spacer {
@@ -299,7 +299,7 @@ a:hover {
 .choose-modal {
   max-width: 1200px;
   width: 100%;
-  min-height: 530px;
+  height: 530px;
   background-color: #fff;
   border: 8px solid #418bc9;
   display: block;
