@@ -147,9 +147,12 @@ a:hover {
   background-color: #f15b4e;
   border: 6px solid #f19c94;
   color: #fff;
-  border-radius: 30px;
   font-size: 25px;
   padding: 5px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  behavior: url(/PIE-1.0.0/PIE.htc);
 }
 
 .card {
@@ -176,6 +179,7 @@ a:hover {
   -ms-background-size: 100% 31px;
   -o-background-size: 100% 31px;
   background-size: 100% 31px;
+  behavior: url(/PIE-1.0.0/PIE.htc);
 }
 
 .remove-card {
@@ -239,13 +243,19 @@ a:hover {
   width: 80px;
   height: 80px;
   border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  behavior: url(/PIE-1.0.0/PIE.htc);
 }
 
 .card-nav-flip {
   width: 300px;
   height: 80px;
-  border-radius: 40px;
   margin: 0 25px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  behavior: url(/PIE-1.0.0/PIE.htc);
 }
 
 /* SCREEN 1 STYlES */
@@ -313,13 +323,16 @@ a:hover {
   display: inline-block;
   width: 70px;
   height: 70px;
-  border-radius: 35px;
   border: 5px solid #d7d7d7;
   background-color: #f8f8f8;
   color: #d7d7d7;
   font-size: 40px;
   padding: 0 0 0 13px;
   float: right;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  behavior: url(PIE-1.0.0/PIE.htc);
 }
 
 .modal-tiles {
